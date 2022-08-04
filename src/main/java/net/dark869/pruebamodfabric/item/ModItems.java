@@ -3,11 +3,10 @@ package net.dark869.pruebamodfabric.item;
 import net.dark869.pruebamodfabric.PruebaModFabric;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModItem {
+public class ModItems {
     public static final Item ROCK = registerItem("rock",
             new Item(new FabricItemSettings().group(ModItemGroup.ROCK)));
 

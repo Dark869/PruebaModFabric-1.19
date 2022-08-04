@@ -8,5 +8,5 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup ROCK = FabricItemGroupBuilder.build(
-            new Identifier(PruebaModFabric.MOD_ID, "rock"), () -> new ItemStack(ModItem.ROCK));
+            new Identifier(PruebaModFabric.MOD_ID, "rock"), () -> new ItemStack(ModItems.ROCK));
 }

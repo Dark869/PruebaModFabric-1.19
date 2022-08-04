@@ -1,11 +1,10 @@
 package net.dark869.pruebamodfabric;
 
-import net.dark869.pruebamodfabric.item.ModItem;
+import net.dark869.pruebamodfabric.block.ModBlocks;
+import net.dark869.pruebamodfabric.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.rmi.registry.Registry;
 
 public class PruebaModFabric implements ModInitializer {
 	public static final String MOD_ID = "pruebamodfabric";
@@ -14,7 +13,8 @@ public class PruebaModFabric implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItem.registerModItems();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 }
