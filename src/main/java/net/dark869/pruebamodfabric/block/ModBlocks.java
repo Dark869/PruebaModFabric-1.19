@@ -14,13 +14,14 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block ROCK_BLOCK = registerBlock("rock_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.ROCK);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.ROCK);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(PruebaModFabric.MOD_ID, name), block);
     }
+
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
         return Registry.register(Registry.ITEM, new Identifier(PruebaModFabric.MOD_ID, name),
