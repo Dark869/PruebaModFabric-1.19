@@ -1,6 +1,9 @@
 {
   "item.pruebamodfabric.rock": "Roca",
   "item.pruebamodfabric.copper_helmet": "Casco de cobre",
+  "item.pruebamodfabric.copper_chestplate": "Peto de cobre",
+  "item.pruebamodfabric.copper_leggings": "Grebas de cobre",
+  "item.pruebamodfabric.copper_boots": "Botas de cobre",
 
   "block.pruebamodfabric.rock_block": "Bloque de roca",
 

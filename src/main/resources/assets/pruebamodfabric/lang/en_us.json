@@ -1,6 +1,9 @@
 {
   "item.pruebamodfabric.rock": "Rock",
   "item.pruebamodfabric.copper_helmet": "Copper Helmet",
+  "item.pruebamodfabric.copper_chestplate": "Copper Chestplate",
+  "item.pruebamodfabric.copper_leggings": "Copper Leggings",
+  "item.pruebamodfabric.copper_boots": "Copper Boots",
 
   "block.pruebamodfabric.rock_block": "Block of rock",
 

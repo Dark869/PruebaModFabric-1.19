@@ -9,7 +9,7 @@ import net.minecraft.util.Lazy;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    COPPER("copper", 10, new int[]{1, 4, 5, 2}, 15,
+    COPPER("copper", 10, new int[]{1, 3, 4, 2}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F);
 
     private static final int[] BASE_DURABILITY;
