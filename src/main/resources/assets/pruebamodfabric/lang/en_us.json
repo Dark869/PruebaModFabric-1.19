@@ -1,8 +1,9 @@
 {
   "item.pruebamodfabric.rock": "Rock",
-
+  "item.pruebamodfabric.copper_helmet": "Copper Helmet",
 
   "block.pruebamodfabric.rock_block": "Block of rock",
 
   "itemGroup.pruebamodfabric.rock": "Prueba de mod fabric"
+
 }
