@@ -7,7 +7,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Lazy;
 
-public enum ModArmor implements ArmorMaterial {
+public enum ModArmorMaterials implements ArmorMaterial {
 
     COPPER("copper", 10, new int[]{1, 4, 5, 2}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F);
@@ -22,7 +22,7 @@ public enum ModArmor implements ArmorMaterial {
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    private ModArmor(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance){
+    private ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance){
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
